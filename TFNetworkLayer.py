@@ -6,7 +6,7 @@ and many canonical basic layers.
 
 from __future__ import print_function
 
-import tensorflow as tf
+from TFUtil import tf
 import contextlib
 import typing
 import TFUtil

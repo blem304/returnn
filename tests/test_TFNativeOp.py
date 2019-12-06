@@ -28,7 +28,7 @@ finally:
 
 import logging
 logging.getLogger('tensorflow').disabled = True
-import tensorflow as tf
+from TFUtil import tf
 
 from TFNativeOp import *
 import TFUtil
